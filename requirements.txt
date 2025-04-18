@@ -1,0 +1,18 @@
+bitarray>=2.6.0
+matplotlib>=3.5.1
+numpy>=1.22.0
+gradio>=3.0.0
+Pillow>=9.0.0
+tqdm>=4.62.0     # For progress bars
+
+# Optional advanced compression libraries
+# These are not required but will be used if available:
+zstandard>=0.15.0  # For ZStandard compression
+lz4>=3.0.0         # For LZ4 compression
+Brotli>=1.0.9      # For Brotli compression
+pylzham           # For LZHAM compression (uncomment if needed, requires manual installation)
+
+# Note: lzma, zlib, and bz2 modules are part of Python standard library
+
+
+
